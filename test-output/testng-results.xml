@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="40344" started-at="2022-03-21T11:16:32Z" finished-at="2022-03-21T11:17:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="40344" started-at="2022-03-21T11:16:32Z" finished-at="2022-03-21T11:17:12Z">
+      <class name="Swagger_API.swaggerAPI">
+        <test-method status="PASS" signature="createUser(org.testng.ITestContext)[pri:0, instance:Swagger_API.swaggerAPI@2d209079]" name="createUser" duration-ms="34200" started-at="2022-03-21T16:46:32Z" finished-at="2022-03-21T16:47:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6615435c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Swagger_API.swaggerAPI@2d209079]" name="login" duration-ms="1639" started-at="2022-03-21T16:47:06Z" depends-on-methods="Swagger_API.swaggerAPI.createUser" finished-at="2022-03-21T16:47:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="edit(org.testng.ITestContext)[pri:0, instance:Swagger_API.swaggerAPI@2d209079]" name="edit" duration-ms="1518" started-at="2022-03-21T16:47:08Z" depends-on-methods="Swagger_API.swaggerAPI.login" finished-at="2022-03-21T16:47:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6615435c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edit -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:Swagger_API.swaggerAPI@2d209079]" name="logout" duration-ms="1490" started-at="2022-03-21T16:47:09Z" depends-on-methods="Swagger_API.swaggerAPI.edit" finished-at="2022-03-21T16:47:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="delete(org.testng.ITestContext)[pri:0, instance:Swagger_API.swaggerAPI@2d209079]" name="delete" duration-ms="1473" started-at="2022-03-21T16:47:11Z" depends-on-methods="Swagger_API.swaggerAPI.logout" finished-at="2022-03-21T16:47:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6615435c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+      </class> <!-- Swagger_API.swaggerAPI -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
